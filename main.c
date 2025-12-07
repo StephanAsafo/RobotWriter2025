@@ -106,7 +106,7 @@ void outputGCode() {
     Sleep(100);
     WaitForDollar();
 
-    // Initialization commands
+    // Initialization commands, sned drawing commands over serial using G-code
     sprintf(buffer, "G1 X0 Y0 F1000\n"); SendCommands(buffer);
     sprintf(buffer, "M3\n"); SendCommands(buffer);
     sprintf(buffer, "S0\n"); SendCommands(buffer);
