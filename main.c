@@ -136,7 +136,7 @@ int main() {
         printf("Invalid height. Please enter a value between 4 and 10.\n");
         return 1;
     }
-//Set scaling factor for font based on user input heightds
+//Set scaling factor for font based on user input heightcndcncbdcbd
     scale = (float)height_mm / FONT_HEIGHT_UNITS;
 
     // Open test.txt and draw multiple lines
